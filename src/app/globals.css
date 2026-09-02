@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+@import "tailwindcss";
+
+
+
+
+* {
+  font-family: "Google Sans", sans-serif;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.head {
+  font-weight: 900;
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 19px;
+}
+
+img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+
+}
+
+.bandcard {
+  border-radius: 10px;
+  width: 300px;
+  background-color: #fffdfd;
+  margin: 30px 20px;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+  box-shadow: 0 4px 15px;
+  height: 400px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.bandcard:hover {
+  transform: translateY(-5px) translateX(5px);
+}
+
+.nameband {
+  font-weight: 900;
+  padding: 0 10px;
+}
+
+.members {
+  margin: 0 20px;
+  padding: 0 10px;
+
+}
+
+p {
+  padding: 0 10px;
+}
+
+.cardband {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
