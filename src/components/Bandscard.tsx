@@ -13,7 +13,7 @@ export default function Bandcard({band}: Bandcardprops) {
       <p>สมาชิกในวง: </p>
       <ul className="members">
         {band.members.map((member)=> (
-          <li key={member.id}>· {member.name}
+          <li key={member.id} className="membersitem"><img className="image-member" src={member.image} alt={member.name} /><span> {member.name}</span>
           <span>({member.role})</span>
           </li>
         ))}

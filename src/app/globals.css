@@ -2,8 +2,6 @@
 @import "tailwindcss";
 
 
-
-
 * {
   font-family: "Google Sans", sans-serif;
   box-sizing: border-box;
@@ -15,8 +13,6 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
-
-
 
 .head {
   font-weight: 900;
@@ -71,4 +67,18 @@ p {
   justify-content: center;
   flex-wrap: wrap;
 
+}
+.image-member{
+  border-radius: 50%;
+
+  width: 50px;
+  height: 50px;
+}
+
+.membersitem{
+  display: flex;
+  align-items: center; 
+  gap: 10px;           
+  list-style: none;    
+  margin-bottom: 8px;
 }
