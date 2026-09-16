@@ -1,7 +1,7 @@
 "use client";
 import { Allbands } from "@/data/bands";
 import Bandcard from "@/components/Bandscard";
-import BandExplorer from "./BandExplorer/BandExplorer";
+import BandExplorer from "@/BandExplorer/BandExplorer";
 
 export default function Bandpage() {
   return (
