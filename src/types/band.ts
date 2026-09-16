@@ -10,5 +10,6 @@ export type Band ={
     name:string;
     genre:string;
     image:string;
+    likes?: number;
     members:Member[];
 };
